@@ -59,9 +59,9 @@ echo ' Address = "'$ETH_WALLET'"' >> $HOME/keep-client/config/config.toml
 echo ' KeyFile = "/mnt/keystore/keep_wallet.json"' >> $HOME/keep-client/config/config.toml
 echo '# Keep contract addresses configuration.' >> $HOME/keep-client/config/config.toml
 echo '[ethereum.ContractAddresses]' >> $HOME/keep-client/config/config.toml
-echo ' KeepRandomBeaconOperator = "0x9233Fd6C58e37dab223EF1dFD5e33eD69FD1f93b"' >> $HOME/keep-client/config/config.toml
-echo ' TokenStaking = "0x88B3D0Bfb8F207292Dc4Cee7C923d0E7C3078a18"' >> $HOME/keep-client/config/config.toml
-echo ' KeepRandomBeaconService = "0xa5018dbeB6920A04e0CFd3D8F0F45BC851838b0D"' >> $HOME/keep-client/config/config.toml
+echo ' KeepRandomBeaconOperator = "0xf417b31104631280adF9F6828ee19985BC299fdC"' >> $HOME/keep-client/config/config.toml
+echo ' TokenStaking = "0x8117632eC1D514550b3880Bc68F9AC1A76c9C67B"' >> $HOME/keep-client/config/config.toml
+echo ' KeepRandomBeaconService = "0xd83248e311DC2Ba0d2A051e86f0678d8857f6ADD"' >> $HOME/keep-client/config/config.toml
 echo '# Keep network configuration.' >> $HOME/keep-client/config/config.toml
 echo '[LibP2P]' >> $HOME/keep-client/config/config.toml
 echo ' Peers = ["/dns4/bootstrap-1.core.keep.test.boar.network/tcp/3001/ipfs/16Uiu2HAkuTUKNh6HkfvWBEkftZbqZHPHi3Kak5ZUygAxvsdQ2UgG",
