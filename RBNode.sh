@@ -64,8 +64,7 @@ echo ' TokenStaking = "0x8117632eC1D514550b3880Bc68F9AC1A76c9C67B"' >> $HOME/kee
 echo ' KeepRandomBeaconService = "0xd83248e311DC2Ba0d2A051e86f0678d8857f6ADD"' >> $HOME/keep-client/config/config.toml
 echo '# Keep network configuration.' >> $HOME/keep-client/config/config.toml
 echo '[LibP2P]' >> $HOME/keep-client/config/config.toml
-echo ' Peers = ["/dns4/bootstrap-1.core.keep.test.boar.network/tcp/3001/ipfs/16Uiu2HAkuTUKNh6HkfvWBEkftZbqZHPHi3Kak5ZUygAxvsdQ2UgG",
-"/dns4/bootstrap-2.core.keep.test.boar.network/tcp/3001/ipfs/16Uiu2HAmQirGruZBvtbLHr5SDebsYGcq6Djw7ijF3gnkqsdQs3wK","/dns4/bootstrap-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf",
+echo ' Peers = ["/dns4/bootstrap-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf",
 "/dns4/bootstrap-2.test.keep.network/tcp/3919/ipfs/16Uiu2HAmNNuCp45z5bgB8KiTHv1vHTNAVbBgxxtTFGAndageo9Dp"]' >> $HOME/keep-client/config/config.toml
 echo ' Port = 3919' >> $HOME/keep-client/config/config.toml
 echo ' # Override the node’s default addresses announced in the network' >> $HOME/keep-client/config/config.toml
